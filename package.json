@@ -1,0 +1,19 @@
+{
+  "name": "fullstackqa_framework",
+  "version": "1.0.0",
+  "description": "Framework Designing",
+  "main": "index.js",
+  "scripts": {
+    "testcafeSample": "testcafe chrome _Modules/*.ts",
+    "testcafeTest": "testcafe chrome _Modules/*Test1.test.ts --env=Test --reporter html:TestRun.html",
+    "testcafeStage": "testcafe chrome _Modules/*.Stage.ts --env=Stage --reporter html:StageRun.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Full Stack QA",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^5.1.0",
+    "testcafe": "^1.4.0",
+    "testcafe-reporter-html": "^1.4.4"
+  }
+}
